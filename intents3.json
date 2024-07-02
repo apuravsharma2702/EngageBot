@@ -1,0 +1,261 @@
+﻿{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, how can I help", "Good to see you", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "ok bye", "thankyou"],
+         "responses": ["Have a nice day", "Bye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?", " What is College Timing", "What are working hours of college"],
+         "responses": ["We're open every day 8am-7pm", "Our hours are 8am-7pm every day", "Its 8am-7pm"]
+        },
+		{"tag": "know me",
+         "patterns": ["What can you do for me?", "What all you can do", "How can you help me?", "How helpful are you", "How to operate you", "Help me", "Help please", "User Guidelines", "Read Me" ],
+         "responses": ["manual.png", "Here's the quick manual for you", "Please go through the manual shown"]
+        },
+		{"tag": "301",
+		"patterns": ["where is room 301?", " how to reach 301?", "where to find room number 301?", "direct me to 301?", "three zero one", "301","three not one", "3 not 1"],
+		"responses": ["3.301.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "302",
+		"patterns": ["where is room 302?", "how to reach 302?", "where to find room number 302?", "direct me to 302?", "three zero two", "302","three not two", "3 not 2"],
+		"responses": ["3.302.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "303",
+		"patterns": ["where is room 303?", "how to reach 303?", "where to find room number 303?", "direct me to 303?", "How to get to the HOD cabin?", "Where to find cabin for EXTC HOD?", "Where is Head of Department of EXTC branch?", "Where is Head of Department of Electronics And Telecommunication Branch?", "Room number three zero three", "303" ,"three not three", "3 not 3","where is HOD cabin?","where is HOD cabin","HOD cabin","HOD room"],
+		"responses": ["HODCabin.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "304",
+		"patterns": ["where is room 304?", "how to reach 304?", "where to find room number 304?", "direct me to 304?", "three zero four", "304","three not four", "3 not 4"],
+		"responses": ["3.304.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "305",
+		"patterns": ["where is room 305?", "how to reach 305?", "where to find room number 305?", "direct me to room number 305?", "three zero five", "305","three not five", "3 not 5"],
+		"responses": ["3.305.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "306",
+		"patterns": ["where is room 306?", "how to reach 306?", "where to find room number 306?", "Direct me to 306?", "three zero six", "306","three not six", "3 not 6"],
+		"responses": ["3.306.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "307",
+		"patterns": ["where is room 307?", "how to reach 307?", "where to find room number 307?", "direct me to room number 307?","Where is store room on third floor?", "Where is third floor store room?","Store room extc department", "Extc store room", "Room number three zero seven", "307","three not seven", "3 not 7"],
+		"responses": ["3.307.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "lab308",
+		"patterns": ["where is lab number 308?", "how to reach 308?", "where to find room number 308?", "direct me to 308?", "Advance Communication Lab", "Lab 308", "Room number three zero eight", "308","three not eight", "3 not 8"],
+		"responses": ["3.308.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "309",
+		"patterns": ["where is lab number 309?", "how to reach 309?", "where to find room number 309?", "direct me to 309?", "Signal Processing Lab", "Lab 309", "Room number three zero nine", "309","three not nine", "3 not 9"],
+		"responses": ["3.309.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "library",
+		"patterns": ["where is room 310?", "how to reach 310?", "where to find room number 310?", "direct me to 310?", "where is  library?", "how to go college library?", "where to find library?", "direct me to library?", "library", "Room number three hundered ten", "310", "three one zero"],
+		"responses": ["Library1.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "311",
+		"patterns": ["where is room 311?", "how to reach 311?", "where to find room number 311?", "Direct me to 311?", "three one one", "311", "three hundered eleven"],
+		"responses": ["3.311.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "312",
+		"patterns": ["where is room 312?", "how to reach 312?", "where to find room number 312?", "Direct me to 312?", "three one two", "312", "three hundered twelve"],
+		"responses": ["3.312.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "313",
+		"patterns": ["where is room 313?", "how to reach 313?", "where to find room number 313?", "Direct me to 313?", "R and D centre?", "R and D office?", "Where is R and D centre?", "Where is R and D office?", "Where is research and development centre?", "Where is research and development office?", "Room number three one three", "313", "three hundered thirteen"],
+		"responses": ["3.313.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "girls_washroom",
+		"patterns": ["Where is the girl’s washroom?", "Girls washroom", "Women’s washroom","Ladies washroom", "Where is the toilet?", "toilet", "girls toilet", "Where is girl’s restroom?"],
+		"responses": ["GirlsWashroom.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "boys_washroom",
+		"patterns": [ "Where is the boy’s washroom?", "Boys washroom", "Men’s washroom","Gents washroom", "Where is the toilet?", "toilet", "boys toilet", "Where is boy’s restroom?","toilet","washroom"],
+		"responses": ["BoysWashroom.jpg", "Check this Image", "Have a look of the floor", "Here is the map", "Your destination is highlighted"]
+		},
+
+		{"tag": "bonafide",
+		"patterns": ["how to apply for bonafide?", "How to fill application form for bonafide?", "Application form for bonafide ?","bonafide"],
+		"responses": ["bonafide.jpg", "Go through these steps", "Follow the procedure shown", "Here is the process for Bonafide Form Application", "Result of your querry is displayed"]
+		},
+
+		{"tag": "railway_concession",
+		"patterns": ["how to apply for Railway concession?", "How to fill application form for Railway concession?", "Application form for Railway concession?", "Railway concession application form?", "railway concession"],
+		"responses": ["RailwayConcession.jpg", "Go through these steps", "Follow the procedure shown", "Here is the process for Railway Concession Application", "Result of your querry is displayed"]
+		},
+		{"tag": "registration",
+		         "patterns": ["What are the steps for admission process", "Admission steps", "Show me the admission steps"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/admission-process/"]
+		 },
+		{"tag": "cancellation",
+		         "patterns": ["Notice for cancellation","Cancellation policy","What is the cancellation policy"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/cancellation-policy/"]
+		 },
+		{"tag": "orientation",
+		         "patterns": ["Notice For First Year Orientation Program","fe orientation","what is fe orientation","what is orientation"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/fe-orientation/"]
+		 },
+		{"tag": "scholarship",
+		         "patterns": ["Scholarship Notice","scholarship notice for se,te and be","se,te and be scholarship notice"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/scholarship-renewal-notice-for-se-te-and-be-students/"]
+		 },
+		{"tag": "ssr1",
+		         "patterns": ["NAAC SSR volume 1"],
+		         "responses": ["https://drive.google.com/file/d/0BzJoJJ9977MhUWRoeTd3MGpZM2M/view"]
+		 },
+		{"tag": "ssr2",
+		         "patterns": ["NAAC SSR volume 2"],
+		         "responses": ["https://drive.google.com/file/d/0BzJoJJ9977MhblVrUTZCbGtESWM/view"]
+		 },
+		{"tag": "Rank",
+		         "patterns": ["National Institutional Ranking","NIRF","rait nirf","what is rait nirf ranking"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/national-institutional-ranking-framework-nirf/"]
+		 },
+		{"tag": "site",
+		         "patterns": ["RAIT website","web"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/"]
+		 },
+		{"tag": "about",
+		         "patterns": ["About the institute", "About RAIT"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/about-us-2/"]
+		 },
+		{"tag": "mvg",
+		         "patterns": ["Mission, Vision and Goal of RAIT","mission, vision and goal","what are mission, vision and goal of rait"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/vision-mission-and-values/"]
+		 },
+		{"tag": "trustee",
+		         "patterns": ["Managing Trustee","who is the managing trustee of rait","who is managing trustee"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/managing-trustee/"]
+		 },
+		{"tag": "Cd",
+		         "patterns": ["Chancellors’s Desk"],
+		         "responses": ["http://www.dypatil.edu/dr-vijay-d-patil/"]
+		 },
+		{"tag": "principal",
+		         "patterns": ["Principal’s Desk"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/deans-message/"]
+		 },
+		{"tag": "council",
+		         "patterns": ["College Academic Council"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/wp-content/uploads/2020/04/College_Academic-Council-2.pdf"]
+		 },
+		{"tag": "extc",
+		         "patterns": ["Department of Electronics & Telecommunication Engineering","extc","electronics and telecommunication"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/department-of-electronics-and-telecommunication-engineering/"]
+		 },
+		{"tag": "fy",
+		         "patterns": ["Department of Engineering Sciences","engineering sciences"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/department-of-engineering-sciences-firstyear/"]
+		 },
+		{"tag": "ce",
+		         "patterns": ["Department of Computer Engineering","ce","cs","computer engineering"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/department-of-computer-engineering/"]
+		 },
+		{"tag": "it",
+		         "patterns": ["Department of Information Technology","it","information technology"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/department-of-information-technology/"]
+		 },
+		{"tag": "etrx",
+		         "patterns": ["Department of Electronics Engineering","ee","etrx","elex","electronics engineering"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/department-of-electronics-engineering/"]
+		 },
+		{"tag": "instru",
+		         "patterns": ["Department of Instrumentation Engineering","instru","intrumentation engineering"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/department-of-instrumentation-engineering/"]
+		 },
+		{"tag": "inf",
+		         "patterns": ["Infrastructure","what are the college infrastructures","college infrastructures","what are the infrastructures"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/infrastructure-2/"]
+		 },
+		{"tag": "tpc",
+		         "patterns": ["Training and Placement Cell","tpc","placement cell","placement"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/tpc-rait/"]
+		 },
+		{"tag": "alum",
+		         "patterns": ["college alumni","alumni","rait alumni"],
+		         "responses": ["https://raitalumni.dypatil.edu/"]
+		 },
+		{"tag": "admin",
+		         "patterns": ["Office and Administrative Department","administrative department"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/wp-content/uploads/2020/04/Administrative-Department-2.pdf"]
+		 },
+		{"tag": "suc",
+		         "patterns": ["RAIT SUC","SUC","what is suc"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/suc-rait/"]
+		 },
+		{"tag": "ieee",
+		         "patterns": ["IEEE RAIT","IEEE","what is ieee","I triple E"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/ieee-rait/"]
+		 },
+		{"tag": "csi",
+		         "patterns": ["CSI RAIT","CSI","what is csi"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/csi-rait/"]
+		 },
+		{"tag": "iete",
+		         "patterns": ["IETE RAIT","IETE","what is iete","I E T E"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/iete-rait-2/"]
+		 },
+		{"tag": "acm",
+		         "patterns": ["RAIT ACM","ACM","what is acm"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/rait-acm/"]
+		 },
+		{"tag": "iste",
+		         "patterns": ["ISTE RAIT","ISTE","what is iste"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/iste-rait/"]
+		 },
+		{"tag": "iic",
+		         "patterns": ["IIC RAIT","IIC","what is iic"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/iic-rait/"]
+		 },
+		{"tag": "kalaraag",
+		         "patterns": ["Kalaraag RAIT","Kalaraag","what is rait kalaraag","RAIT Kalaraag"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/kalarag-rait/"]
+		 },
+		{"tag": "social wing",
+		         "patterns": ["Social Wing RAIT","Social Wing","what is social wing"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/social-wing-rait/"]
+		 },
+		{"tag": "sports",
+		         "patterns": ["RAIT SPORTS","SPORTS"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/rait-sports/"]
+		 },
+		{"tag": "wall",
+		         "patterns": ["Wall Magazine","what is wall magazine"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/wall-magazine/"]
+		 },
+		{"tag": "photo circle",
+		         "patterns": ["Photo Circle RAIT","Photo Circle"],
+		         "responses": ["http://www.dypatil.edu/mumbai/rait/photo-circle/"]
+		 },
+		{"tag":"admission",
+			"patterns":["admission form","admission application form"],
+			"responses":["http://dypatil.edu/application/"]
+		 },
+		{"tag":"courses",
+			"patterns":["courses offered","what are the courses offered","courses in rait","rait courses"],
+			"responses":["http://www.dypatil.edu/mumbai/rait/under-graduate/"]
+		 }
+
+]
+}
